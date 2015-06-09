@@ -242,7 +242,7 @@ int main(int argc, char ** argv) {
         printf("# Extracted JPGs will be saved to \"%s\"\n", argv[2]);
         gStorageFolder = strdup(argv[2]);
         gDoExtract = true;
-    } if (argc == 3) {
+    } else if (argc == 3) {
         // storage folder is argv[2]
         printf("# Extracted JPGs will be saved to \"%s\"\n", argv[2]);
         gStorageFolder = strdup(argv[2]);
