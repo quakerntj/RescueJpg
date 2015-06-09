@@ -1,3 +1,4 @@
-all: rescurejpg
-rescurejpg: rescuejpg.c
-    gcc $@ $^
+all: rescuejpg
+
+rescurjpg: rescuejpg.c
+	gcc $@ $^
