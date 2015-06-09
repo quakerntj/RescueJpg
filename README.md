@@ -1,7 +1,12 @@
 # RescueJpg
-RescueJpg is a tool to rescue missing jpeg in diskspace.  It can scan disk image and extract the image to another folder.
+RescueJpg is atool to rescue missing jpeg in diskspace.  It can scan disk image and extract the image to another folder.
 
-Current version is V0.1
-RescueJpg can scan out the jpeg address and size from the disk image.  But can't extract the file.
+## Version
+Current version is V0.2
+RescueJpg can scan out the jpeg address and size from the disk image.  And extract the found image to a folder.
 
-The next step is using seek to rewind the the image begining point.  And the copy the file out to specification folder.
+## Development
+The next step is to recognize the EXIF for date filter.
+
+## Application
+The SONY RAW and Canon RAW also have a JPEG Image inside the RAW file.  Seems RescueJpg can find them out.
