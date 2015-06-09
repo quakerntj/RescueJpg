@@ -1,5 +1,5 @@
 /**
- * This is for fast extract a jpeg from fat32 disk image
+ * This is a tool for extracting missed JPEGs from a disk image.
  * AUTHOR Quaker Chung
 **/
 
